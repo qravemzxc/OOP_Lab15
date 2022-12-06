@@ -13,7 +13,7 @@ namespace Lab15
         public static void Task1()
         {
             Console.WriteLine("===============================   TASK 1   ===============================");
-            Task Eratos = new Task(() => ErSieve(100));
+           
             Console.WriteLine($"ID текущей задачи:{Eratos.Id}");
             Console.WriteLine($"Статус во время создания:{Eratos.Status}");
             Eratos.Start();
